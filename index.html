@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yawa</title>
+    <style>
+	h1 {  color: black; font-family: serif; font-size: 20px; text-align: center;}
+	h2 {  color: black; font-family: serif; font-size: 20px; text-align: justify; margin-left: 100px; margin-right: 100px; margin-top:30px;}
+	h4 {  color: #205781; font-family: Times New Roman; font-size: 40px; text-align: center;}
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #aed6f1 ;
+            color: #000;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            border-bottom: 1px solid #ddd;
+            position: relative;
+        }
+        .navbar .logo {
+		color: #205781;
+            font-size: 40px;
+            font-weight: bold;
+            font-family: serif;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .navbar .menu {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-left: auto;
+        }
+        .navbar a {
+            color: black;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        .navbar .subscribe {
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .navbar .subscribe:hover {
+            background-color: #333;
+        }
+        .links {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 20px;
+            font-size: 14px;
+        }
+        .links a {
+            color: black;
+            text-decoration: none;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+		.main-image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .main-image img {
+            width: 1000px;
+            max-width: 1000px;
+            height: auto;
+            display: block;
+        }
+		.img{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+		.img img {
+            width: 500px;
+            max-width: 1000px;
+            height: auto;
+            display: block;
+        }
+		.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px;
+    margin: 0 50px; /* Añade un margen de 50px en los lados */
+}
+
+        .grid-item {
+            text-align: left;
+        }
+        .grid-item img {
+    width: 80%; /* Reduce el tamaño de las imágenes */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centra la imagen dentro del contenedor */
+}
+
+        .grid-item h3 {
+            font-size: 16px;
+            margin: 10px 0;
+            text-align: center;
+        }
+        .grid-item p {
+            font-size: 14px;
+            color: gray;
+            text-align: center;
+        }
+		.footer {
+            background-color: black;
+            color: white;
+            padding: 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        .footer div {
+            max-width: 300px;
+        }
+        .footer a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            margin: 5px 0;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+		.social-icons {
+    display: flex;
+    gap: 10px; /* Espacio entre iconos */
+    margin-top: 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+}
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">YAWA</div>
+        <div class="menu">
+            <a href="#" class="subscribe">SUBSCRIBE</a>
+            <a href="#">SIGN IN</a>
+            <a href="#">🔍</a>
+        </div>
+    </div>
+    <div class="links">
+        <a href="#">CONÓCENOS</a>
+        <a href="https://www.canva.com/design/DAGWY4PoAW0/9Qp_y0zOVCIfJoOy5ibNBA/edit?utm_content=DAGWY4PoAW0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">PROYECTO</a>
+        <a href="#">EXPLORAR</a>
+        <a href="yawa.html">INICIO</a>
+    </div>
+	<div class="main-image">
+        <img src="https://www.cali.gov.co/dagma/info/principal/media/pubInt/thumbs/thpub_700x400_159941.jpg" alt="Imagen Central">
+    </div>
+	<h2>En cali, colombia, el problema de contaminacion de los rios afecta tanto al medio
+	ambiente como a la calidad de vida de los habitantes. Los principales rios que atraviesan
+	la ciudad, como el rio cauca, el rio cali y el rio melendez, presentan diversos niveles de
+	contaminacion debido a factores como vertimiento de aguas residuales, </h2>
+	<h2>Por Cali pasan 7 ríos, los cuales son el <i> río Cauca, río Cali, río Cañaveralejo, río Melendez, río Aguacatal, río Lili y el río Pance</i> </h2>
+	<h2>El río Cauca, vital para Cali, ha sido reducido a un canal de desechos, reflejando el fracaso colectivo de
+	las instituciones, las industrias y la ciudadanía. Desde 2017, la contaminación ha escalado de manera alarmante,
+	en gran parte por la creciente acumulación de basura y el manejo irresponsable de residuos sólidos.</h2>
+		<h2>Desde 2017, el turismo y la actividad diaria han incrementado la cantidad de desechos sólidos que
+		terminan en el agua. Es común ver orillas repletas de botellas plásticas, bolsas, y restos de comida.
+		Esta basura, lejos de desaparecer, se descompone lentamente, liberando toxinas que destruyen el ecosistema
+		acuático y generan un caldo de cultivo para enfermedades.</h2>
+		
+    
+		<h4>¿A QUE NOS LLEVA ESTO?</h4>
+			
+		<div class="img">
+        <img src="https://cloudfront-us-east-1.images.arcpublishing.com/prisaradioco/EJGVZD7DFNIFXOA473T4TQO44Y.jpg" alt="Imagen Central">
+
+    </div>
+	<h2>Nuestro proyecto, Yawa, es la creación de una innovadora malla automatizada destinada a la recolección de basura flotante
+	en puntos críticos de los ríos de Cali, especialmente en áreas de alta concentración de residuos o en los puntos de confluencia de 
+	ríos. Este sistema está	diseñado para operar de manera eficiente y autónoma, mejorando la calidad de las aguas al reducir la contaminación 
+	en los cuerpos fluviales de la ciudad.
+	<br>
+	<br>
+	Nuestros objetivos principales son <i> Mejorar la salud pública y fomentar a la responsabilidad ciudadana, Disminuir la contaminación en los ríos de cali
+y Fomentar la innovación tecnológica en el medio ambiente</i> 
+<br>
+	<br>
+<i> Si quieres conocer mas detalles, <a href="https://www.canva.com/design/DAGWY4PoAW0/9Qp_y0zOVCIfJoOy5ibNBA/edit?utm_content=DAGWY4PoAW0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" rel="noopener noreferrer">haz click aquí</a>.</i></h2>
+
+
+	<br>
+    <br>
+	<br>
+    <br>
+	<h1>INVESTIGACION Y ARTICULOS</h1>
+	<div class="grid-container">
+        <div class="grid-item">
+            <a href="yawa.html"><img src="https://www.rcnradio.com/_next/image?url=https%3A%2F%2Ffiles.rcnradio.com%2Fpublic%2Fstyles%2F16_9%2Fpublic%2F2018-12%2Fcreciente_rio_cauca._cortesia_oficina_gestion_del_riesgo_de_cali_0.jpeg%3FVersionId%3D52YREmQgSjbCo3gKdzgGgw_2crhp1iTS%26itok%3D_0MDVjQg&w=3840&q=75" alt="Imagen 6"></a>
+            <h3>FISICA</h3>
+            <p>Movimientos y leyes</p>
+        </div>
+        <div class="grid-item">
+            <a href="yawa2.html"><img src="https://www.lifeder.com/wp-content/uploads/2017/12/800px-Rio_Cauca-1.jpg" alt="Imagen 6"></a>
+            <h3>BIOLOGIA</h3>
+            <p>Conoce nuestro prototipo </p>
+        </div>
+        <div class="grid-item">
+            <a href="yawa3.html"><img src="https://panoramacultural.com.co/media/images/articulos/2019/10/22172341.jpg" alt="Imagen 6"></a>
+            <h3>QUIMICA</h3>
+            <p>Conoce los materiales implementados</p>
+        </div>
+        <div class="grid-item">
+   <a href="yawa4.html"><img src="https://www.qhubocali.com/wp-content/uploads/2022/10/6304248f1c495.jpeg" alt="Imagen 6"></a>
+            <h3>MATEMATICAS</h3>
+            <p>Encuestas regionales</p>
+        </div>
+        <div class="grid-item">
+            <a href="yawa5.html"><img src="https://sitioscali.com.co/wp-content/uploads/2021/07/Lugares-para-visitar-cerca-de-Cali.jpg" alt="Imagen 6"></a>
+            <h3>INFORMATICA</h3>
+            <p>Cuidados y prevenciones</p>
+        </div>
+        <div class="grid-item">
+            <a href="yawa6.html"><img src="https://picoloro.co/wp-content/uploads/2019/11/que-hacer-en-cali-y-sus-alrededores-picoloro-ecurismo.jpg" alt="Imagen 6"></a>
+            <h3>ARTISTICA</h3>
+            <p>Un reflejo de yawa en el arte</p>
+        </div>
+    </div>
+	<div class="footer">
+        <div>
+            <h3>YAWA</h3>
+            <p>Cra. 37a #5 - 27, B/ San Fernando, Cali, Valle del Cauca, Colombia</p>
+			<br>
+    <br>
+            <p>Escríbenos:3128898485</p>
+        </div>
+        <div>
+            <h3>Conoce más sobre nosotros</h3>
+            <p>info@yawacali.com</p>
+            <h3>Síguenos también en:</h3>
+            <div class="social-icons">
+    <a href="https://www.instagram.com"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" width="30"></a>
+    <a href="https://www.facebook.com"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png" alt="Facebook" width="30"></a>
+    <a href="https://www.youtube.com"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube" width="30"></a>
+    <a href="https://www.linkedin.com"><img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" alt="LinkedIn" width="30"></a>
+    <a href="https://www.x.com"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter (X)" width="30"></a>
+</div>
+
+
+        </div>
+        <div>
+            <h3>Servicios</h3>
+            <a href="#">Conocenos</a>
+            <a href="https://www.canva.com/design/DAGWY4PoAW0/9Qp_y0zOVCIfJoOy5ibNBA/edit?utm_content=DAGWY4PoAW0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Proyecto</a>
+            <a href="#">Explorar</a>
+            <a href="#">Mas</a>
+			 <a href="yawa.html">inicio</a>
+        </div>
+    </div>
+</body>
+</html>
